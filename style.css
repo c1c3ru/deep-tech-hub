@@ -916,6 +916,37 @@ body {
     text-decoration: underline;
 }
 
+.contacts-team {
+    background-color: var(--background-white);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 30px auto;
+    max-width: 600px;
+}
+
+.contacts-team h3 {
+    color: var(--primary-color);
+    font-size: 1.4em;
+    margin-bottom: 20px;
+}
+
+.contacts-team ul {
+    list-style: none;
+    padding-left: 0;
+    text-align: left;
+}
+
+.contacts-team ul li {
+    padding: 8px 0;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 1.1em;
+}
+
+.contacts-team ul li:last-child {
+    border-bottom: none;
+}
+
 /* Rodapé */
 footer {
     background-color: var(--primary-color);
