@@ -938,9 +938,21 @@ body {
 }
 
 .contacts-team ul li {
-    padding: 8px 0;
+    padding: 12px 0;
     border-bottom: 1px solid #f0f0f0;
-    font-size: 1.1em;
+    font-size: 1.0em;
+    line-height: 1.4;
+}
+
+.contacts-team ul li a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.contacts-team ul li a:hover {
+    text-decoration: underline;
 }
 
 .contacts-team ul li:last-child {
